@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Patient Info</title>
+</head>
+<body>
+  <h2>Patient Info</h2>
+  <p>Name: <span id="name"></span></p>
+  <p>Age: <span id="age"></span></p>
+  <p>Disease: <span id="disease"></span></p>
+  <p>Gender: <span id="gender"></span></p>
+  <p>Phone no: <span id="phone no"></span></p>
+  <p>Address: <span id="Address"></span></p>
+
+  <script>
+    // Load data from localStorage
+    document.getElementById('name').innerText = localStorage.getItem('name');
+    document.getElementById('age').innerText = localStorage.getItem('age');
+    document.getElementById('disease').innerText = localStorage.getItem('disease');
+  </script>
+</body>
+</html>
