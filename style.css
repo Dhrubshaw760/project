@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     height: 5vh;
-    /* background-color:#A4CBE1 ; */
+  
     font-family: "Roboto", sans-serif;
     
       }
@@ -41,15 +41,7 @@ p{
    
 
 
-/* .heading{
 
-   
-    display: inline-block;
-      margin :0rem 10rem 2rem 25rem;
-} */
-
-    /* color: #2d6b8a; */
-    /* background-color: white */
    
 
 
@@ -61,13 +53,11 @@ h2{
     text-decoration: wavy underline;
     margin-bottom: none;
 }
-/* p{
-    text-align: center;
-} */
+
 li{
     margin:2.5rem;
     font-weight: 100;
-    /* color:#1F4E79; */
+
 }
 img {
 height: 8rem;
